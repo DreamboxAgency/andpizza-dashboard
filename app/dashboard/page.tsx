@@ -30,10 +30,19 @@ const PLATFORM_COLORS: Record<string, string> = {
 }
 
 const MONTH_LABELS: Record<string, string> = {
-  '2025-12-01': 'Dec',
-  '2026-01-01': 'Jan',
-  '2026-02-01': 'Feb',
-  '2026-03-01': 'Mar',
+  '2025-12-01': 'Dec 25',
+  '2026-01-01': 'Jan 26',
+  '2026-02-01': 'Feb 26',
+  '2026-03-01': 'Mar 26',
+  '2026-04-01': 'Apr 26',
+  '2026-05-01': 'May 26',
+  '2026-06-01': 'Jun 26',
+  '2026-07-01': 'Jul 26',
+  '2026-08-01': 'Aug 26',
+  '2026-09-01': 'Sep 26',
+  '2026-10-01': 'Oct 26',
+  '2026-11-01': 'Nov 26',
+  '2026-12-01': 'Dec 26',
 }
 
 export default function DashboardPage() {
